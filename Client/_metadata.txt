@@ -1,0 +1,17 @@
+generated-with: Easy Java/Javascript Simulations, version 5.3, build 180218. Visit http://www.um.es/fem/Ejs
+title: 
+logo-image: 
+author: Author name
+copyright: 
+preferred-width: 800
+preferred-height: 600
+author-image: 
+source: testRIPLocal.ejss
+main-script: 
+main-simulation: testRIPLocal_Simulation.xhtml
+available-languages: 
+html-contents: testRIPLocal_Contents.xhtml
+html-main: testRIPLocal.xhtml
+page-title: Simulation
+page-index: testRIPLocal_Simulation.xhtml
+resource: servo.jpg

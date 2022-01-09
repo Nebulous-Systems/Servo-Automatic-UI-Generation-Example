@@ -1,0 +1,236 @@
+<Array>
+<Name>Experiments Conf</Name>
+<Dimsize>3</Dimsize>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>10</NumElts>
+<String>
+<Name>LabVIEW Host</Name>
+<Val>localhost</Val>
+</String>
+<U16>
+<Name>LabVIEW Port</Name>
+<Val>3363</Val>
+</U16>
+<Path>
+<Name>Path</Name>
+<Val>..\Private\TestOK.vi</Val>
+</Path>
+<String>
+<Name>Name</Name>
+<Val>TestOK</Val>
+</String>
+<String>
+<Name>Authors</Name>
+<Val>D.Chaos</Val>
+</String>
+<String>
+<Name>Keywords</Name>
+<Val>Test</Val>
+</String>
+<String>
+<Name>Description</Name>
+<Val>TestOK.vi is used to test the correct execution of a well-defined vi through RIP</Val>
+</String>
+<Array>
+<Name>Cameras</Name>
+<Dimsize>2</Dimsize>
+<Cluster>
+<Name>Camera</Name>
+<NumElts>3</NumElts>
+<String>
+<Name>Base URL</Name>
+<Val>http://camera1_ip</Val>
+</String>
+<String>
+<Name>Path</Name>
+<Val>/axis-cgi/mjpg/video.cgi</Val>
+</String>
+<String>
+<Name>Name</Name>
+<Val>Camera 1</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>Camera</Name>
+<NumElts>3</NumElts>
+<String>
+<Name>Base URL</Name>
+<Val>http://camera2_ip</Val>
+</String>
+<String>
+<Name>Path</Name>
+<Val>/axis-cgi/mjpg/video.cgi</Val>
+</String>
+<String>
+<Name>Name</Name>
+<Val>Camera 2</Val>
+</String>
+</Cluster>
+</Array>
+<Array>
+<Name>Sampling</Name>
+<Dimsize>1</Dimsize>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Sampled Variable</Name>
+<Val>time</Val>
+</String>
+<DBL>
+<Name>Delta</Name>
+<Val>5.00000000000000</Val>
+</DBL>
+</Cluster>
+</Array>
+<U32>
+<Name>Sampling Freq</Name>
+<Val>200</Val>
+</U32>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>10</NumElts>
+<String>
+<Name>LabVIEW Host</Name>
+<Val>localhost</Val>
+</String>
+<U16>
+<Name>LabVIEW Port</Name>
+<Val>3363</Val>
+</U16>
+<Path>
+<Name>Path</Name>
+<Val>..\Private\TestDoNotClose.vi</Val>
+</Path>
+<String>
+<Name>Name</Name>
+<Val>TestNO_STOP</Val>
+</String>
+<String>
+<Name>Authors</Name>
+<Val>D.Chaos</Val>
+</String>
+<String>
+<Name>Keywords</Name>
+<Val>Test</Val>
+</String>
+<String>
+<Name>Description</Name>
+<Val>TestDoNotClose.vi is used to test if RIP can automatically close a vi that never ends by itself</Val>
+</String>
+<Array>
+<Name>Cameras</Name>
+<Dimsize>1</Dimsize>
+<Cluster>
+<Name>Camera</Name>
+<NumElts>3</NumElts>
+<String>
+<Name>Base URL</Name>
+<Val>http://camera1_ip</Val>
+</String>
+<String>
+<Name>Path</Name>
+<Val>/axis-cgi/mjpg/video.cgi</Val>
+</String>
+<String>
+<Name>Name</Name>
+<Val>Camera 1</Val>
+</String>
+</Cluster>
+</Array>
+<Array>
+<Name>Sampling</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Sampled Variable</Name>
+<Val></Val>
+</String>
+<DBL>
+<Name>Delta</Name>
+<Val></Val>
+</DBL>
+</Cluster>
+</Array>
+<U32>
+<Name>Sampling Freq</Name>
+<Val>200</Val>
+</U32>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>10</NumElts>
+<String>
+<Name>LabVIEW Host</Name>
+<Val>localhost</Val>
+</String>
+<U16>
+<Name>LabVIEW Port</Name>
+<Val>3363</Val>
+</U16>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files\National Instruments\LabVIEW 2020\examples\Control and Simulation\Simulation\Controllers\SimEx DC Motor Position Control with PID.vi</Val>
+</Path>
+<String>
+<Name>Name</Name>
+<Val>Motor</Val>
+</String>
+<String>
+<Name>Authors</Name>
+<Val>National Instruments</Val>
+</String>
+<String>
+<Name>Keywords</Name>
+<Val>First order, simulation, control</Val>
+</String>
+<String>
+<Name>Description</Name>
+<Val>DC Motor simple control</Val>
+</String>
+<Array>
+<Name>Cameras</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Camera</Name>
+<NumElts>3</NumElts>
+<String>
+<Name>Base URL</Name>
+<Val></Val>
+</String>
+<String>
+<Name>Path</Name>
+<Val></Val>
+</String>
+<String>
+<Name>Name</Name>
+<Val></Val>
+</String>
+</Cluster>
+</Array>
+<Array>
+<Name>Sampling</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Sampled Variable</Name>
+<Val></Val>
+</String>
+<DBL>
+<Name>Delta</Name>
+<Val></Val>
+</DBL>
+</Cluster>
+</Array>
+<U32>
+<Name>Sampling Freq</Name>
+<Val>50</Val>
+</U32>
+</Cluster>
+</Array>
