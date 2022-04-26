@@ -3,13 +3,14 @@ Instructions to run the Servo Motor example for automatic UI building:
 1. Download RIP-LabView server from https://github.com/Nebulous-Systems/rip-server_labview
 
 2. Follow the instructions in the RIP-LabView server readme file to run the server and test 
-if it is working.
+   if it is working.
 
 3. Place the "SimEx DC Motor Position Control with PID.vi" file in 
-   C:\Program Files\National Instruments\LabVIEW 2020\examples\Control and Simulation\Simulation\Controllers\
+   C:\Program Files\National Instruments\LabVIEW 2020\examples\Control and Simulation\Simulation\Controllers\ (or
+   the equivalent path in Mac OS).
 
 4. Replace the mygadgets_conf.json file you got when downloaded the RIP server by the one in the RIP Server
-   folder here
+   folder here. If using Mac OS, replace the path to the VI with the corresponding one.
 
 5. If you placed the .vi file in a different folder, you would need to modify the mygadgets_conf.json file
    to update the path to the .vi file.
