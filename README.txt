@@ -7,7 +7,7 @@ Instructions to run the Servo Motor example for automatic UI building:
 
 3. Place the "SimEx DC Motor Position Control with PID.vi" file in 
    C:\Program Files\National Instruments\LabVIEW 2020\examples\Control and Simulation\Simulation\Controllers\ (or
-   the equivalent path in Mac OS).
+   the equivalent path in Mac OS or Linux).
 
 4. Replace the mygadgets_conf.json file you got when downloaded the RIP server by the one in the RIP Server
    folder here. If using Mac OS, replace the path to the VI with the corresponding one.
